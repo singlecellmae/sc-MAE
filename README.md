@@ -26,7 +26,7 @@ For training and testing on 10X_PBMC dataset, please run
 
 ```
 python -m torch.distributed.launch --nproc_per_node=2 --use_env main.py \
-    --model masksc_vit_base_patch4 \
+    --model scmae_vit_base_patch4 \
     --batch_size 128 \
     --accum_iter 1 \
     --norm_pix_loss \
